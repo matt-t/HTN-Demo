@@ -15,6 +15,9 @@ export default class PathFinding extends Component {
           <div>
             <h1 className="title">Hack The North</h1>
             <p className="italic">Profile Information</p>
+            <div>
+                <img className="image" src='htn.png' height="180" width="180"></img>
+            </div>
             <button className="button" onClick={() => this.visualizeDijkstra()}>
               Visualize
             </button>
