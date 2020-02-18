@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./profile.css";
+import "./Profile.css";
 
 export default class PathFinding extends Component {
     constructor() {
@@ -13,8 +13,8 @@ export default class PathFinding extends Component {
       return (
         <div>
           <div>
-            <h1 className="title">PATHFINDER VISUALIZER</h1>
-            <p className="italic">Made by: Dan Lu & Matthew Tam</p>
+            <h1 className="title">Hack The North</h1>
+            <p className="italic">Profile Information</p>
             <button className="button" onClick={() => this.visualizeDijkstra()}>
               Visualize
             </button>
